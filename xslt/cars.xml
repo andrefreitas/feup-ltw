@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cars.xsl"?>
+<cars>
+	<car owner="Carl">
+		<date>2013-01-23</date>
+		<registration>46-56-TX</registration>
+	</car>
+	<car owner="Joseph">
+		<date>2011-01-23</date>
+		<registration>16-56-VW</registration>
+	</car>	
+	<car owner="Marie">
+		<date>2003-01-23</date>
+		<registration>T7-56-TX</registration>
+	</car>
+</cars>

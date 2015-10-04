@@ -1,0 +1,46 @@
+html{
+	background: #ddddff;	
+	font-family:Verdana;
+	}
+	
+* {
+	margin:0;
+	padding:0;	
+}
+
+body{
+	width:850px;
+	background: #669933;
+	margin: 0 auto;
+	height:100%;
+}
+
+#cabecalho{
+	background: #336699;
+	color:#ffffff;
+}
+
+#cabecalho h1{
+	padding:50px 0px 10px 0px;
+}
+
+#cabecalho h2{
+	-moz-transform-origin:0 100%;
+	-moz-transform: translate(0px, 0px) rotate(90deg);
+	background: #336699;
+	padding:10px 50px 10px 50px;
+}
+
+#menu{
+	width:200px;
+	float:right;
+	height: 100%;
+    position: relative;
+	right:0px;
+
+}
+#conteudo{
+	width:600px;
+	margin-left:50px;
+	background:#ffffff;
+}

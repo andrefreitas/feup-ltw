@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet href="payments.xsl" type="text/xsl"?>
+<payments>
+	<payment>
+		<invoice>2340</invoice>
+		<value>23.4</value>
+		<date>2013-01-11T16:20:12</date>
+	</payment>
+
+	<payment>
+		<invoice>2110</invoice>
+		<value>17</value>
+		<date>2013-01-21T10:40:56</date>
+	</payment>
+
+	<payment>
+		<invoice>2678</invoice>
+		<value>12</value>
+		<date>2013-01-19T20:21:32</date>
+	</payment>
+</payments>

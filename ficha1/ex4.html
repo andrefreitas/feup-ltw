@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Exercício 4</title>
+	</head>
+	<body>
+		<form method="GET">
+			Nome: <input type="text" name="nome"/> 
+			<br/>
+			Idade:<br/>
+				<input type="radio" name="idade" value="<18"> &lt;18<br/>
+				<input type="radio" name="idade"  value="19-35"> 19-35<br/>
+				<input  type="radio" name="idade"  value="36-48"> 36-48<br/>
+				<input  type="radio" name="idade" value=">49"> >49<br/>
+			<label for="profissao">Profissão:</label> 
+			<input type="text" name="profissao" id="profissao"/> <br/>
+			<label for="distrito">Distrito:</label>
+			<select name="distrito" id="distrito">
+				<option value="porto"> Porto</option>
+				<option value="lisboa"> Lisboa</option>
+				<option value="coimbra"> Coimbra</option>
+				<option value="aveiro"> Aveiro</option>
+			</select><br/>
+		    Interesses:<br/>
+			<input type="checkbox" name="interesses"  value="desporto" /> Desporto<br/>
+			<input type="checkbox" name="interesses" value="musica" /> Música<br/>
+			<input type="checkbox" name="interesses"  value="arte" /> Arte <br/>
+			
+			<label for="conhecimento">Como tomou conhecimento deste questionário?</label><br>
+			<textarea name="conhecimento"  id="conhecimento" rows="10" cols="30">
+			</textarea><br/>
+			<input type="submit" value="Submeter"/>
+		</form>
+	</body>
+</html>
